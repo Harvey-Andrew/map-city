@@ -8,7 +8,7 @@ export const useCityStore = defineStore("city", () => {
     if (currentCity) {
       city.value = currentCity;
     }
-    // console.log(city);
+    console.log(city);
     return city;
   }
 
