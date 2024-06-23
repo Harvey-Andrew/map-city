@@ -29,6 +29,7 @@
 </template>
 
 <script setup>
+
 import { onMounted, ref, watch } from "vue";
 import { getCityHttp } from "@/api";
 import { useCityStore } from "@/stores/city";
@@ -43,6 +44,7 @@ onMounted(async () => {
   // console.log(res);
   hotCities.value = res.data.hotCities;
 });
+
 const handleItem = (name) => {
   // A-操作pinia
   $store.changeCity(name);

@@ -1,3 +1,13 @@
+/**
+ * @FilePath     : /map-city/src/api/index.js
+ * @Description  : 封装请求接口
+ * @Author       : Harvey-Andrew
+ * @Version      : 0.0.1
+ * @LastEditors  : Harvey-Andrew 
+ * @LastEditTime : 2024-06-24 01:36:16
+ * @Copyright © 2024 by Harvey-Andrew  .
+ */
+
 import axios from "axios";
 const env = import.meta.env;
 const key = env.VITE_TOKEN;
